@@ -2,7 +2,7 @@ https://docs.saltproject.io/en/getstarted/fundamentals/install.html
 
 ## On the Salt Master
 
-Run these commands on the system that you want to use as the central management point:
+Run these commands on the system that you want to use as the central management point (Salt-Master):
 
 ```bash
 curl -L https://bootstrap.saltstack.com -o install_salt.sh
@@ -13,7 +13,7 @@ sudo sh install_salt.sh -M
 
 ## On each Salt Minion
 
-Run these commands on each system that you want to manage using Salt.
+Run these commands on each system that you want to manage using Salt ( Salt-Minion(s) ).
 ```bash
 curl -L https://bootstrap.saltstack.com -o install_salt.sh
 sudo sh install_salt.sh
